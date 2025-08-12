@@ -3,26 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mera Pehla Website</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Monish - Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Welcome to My Website</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+<header>
+  <div class="container nav-container">
+    <h1 class="logo">Monish</h1>
+    <nav id="navbar">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
     </nav>
-  </header>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+  </div>
+</header>
 
-  <section>
-    <h2>About Me</h2>
-    <p>Main Monish hoon, ye meri pehli website hai.</p>
-  </section>
+<section class="hero fade-in">
+  <div class="container">
+    <h2>Welcome to My Website</h2>
+    <p>This is my personal space to share my journey, work, and ideas.</p>
+    <a href="about.html" class="btn">Learn More</a>
+  </div>
+</section>
 
-  <footer>
-    <p>© 2025 Monish</p>
-  </footer>
+<footer>
+  <p>© 2025 Monish</p>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>
